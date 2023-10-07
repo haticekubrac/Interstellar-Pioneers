@@ -1,53 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eclipses: Perspective is Everything</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Interstellar Pioneers</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Eclipses: Perspective is Everything</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark p-3" style="background-color: #00063B;">
+      <div class="container-fluid">
+        <a href="index.html"><img style="height: 60px;" src="Fotolar/Interstellar Pioneers-.png" alt=""></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">Learn More</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">About Us</a>
+            </li>
+                       
+          </ul>
+        </div>
+      </div>
+      </nav>
+    <div class="d-flex">
+      <div style="width: 70%; ">
+        
+        <div style="height: 600px; width: 100%;">
+          <iframe src="https://eyes.nasa.gov/apps/solar-system/#/story/annular_solar_eclipse" title="Annular Solar Eclipse" 
+          class="smd-iframe-iframe margin-left-auto margin-right-auto border-0" allow="fullscreen" data-gtm-yt-inspected-13="true">
+          </iframe>
+        </div>
+
+      </div>
+
+      <div style="background-color: rgb(208, 208, 251); width: 30%; text-align: center; justify-content: center;">
+        
+        <h1>Yakında Görünecekler</h1>
+
+        <div class="card" style="width: 18rem; justify-content: center;">
+          <img src="Fotolar/Interstellar Pioneers-.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+    <div style="width: 100%;">
+      <div class="container w-85">
+        <div class="m-4">
+          <div class="accordion" id="myAccordion">
+            <!--Karbon ayakizi nedir-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  type="button"
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                >
+                  <b>Karbon ayak izi mi? O da nedir?</b>
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#myAccordion"
+              >
+                <div class="card-body mx-3 my-3">
+                  11111
+                </div>
               </div>
             </div>
-          </nav>
-    </header>
+            <!--Sürdürülebilir alışveriş önerileri-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  type="button"
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                >
+                  <b>Nasıl sürdürülebilir alışveriş yapabilirim?</b>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#myAccordion"
+              >
+                <div class="card-body mx-3 my-3">
+                  22222
+                </div>
+              </div>
+            </div>
+            <!--İlginç karbon ayak izi istatistikleri-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  type="button"
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                >
+                  <b>Karbon ayak izi ile ilgili ilginç istatistikler nelerdir?</b>
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#myAccordion"
+              >
+                <div class="card-body mx-3 my-3">
+                  3333
+                </div>
+              </div>
+            </div>
+            <!--Farklı ayakizi türleri-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button
+                  type="button"
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                >
+                  <b>Farklı ayakizi türleri nelerdir?</b>
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#myAccordion"
+              >
+                <div class="card-body mx-3 my-3">
+                  44444
+                </div>
+              </div>
+            </div>
+            <!--Daha yeşil bir gelecek ile ilgili video-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button
+                  type="button"
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                >
+                  <b>Daha yeşil bir gelecek ile ilgili nasıl bilgi edinebilirim?</b>
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#myAccordion"
+              >
+                <div class="card-body mx-3 my-3">
+                  666666
+                </div>
+              </div>
+            </div>
+            <!--Geri dönüşüm fikirleri-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  type="button"
+                  class="accordion-button collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                >
+                  <b>Atıklarımı nasıl eğlenceli bir şekilde ileri ve geri dönüştürebilirim?</b>
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#myAccordion"
+              >
+                <div class="card-body mx-3 my-3">
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
