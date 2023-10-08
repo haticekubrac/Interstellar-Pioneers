@@ -1,0 +1,26 @@
+/* carousel */
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+  filter: invert(100%);
+}
+
+.carousel {
+  height: 50%;
+  width: 50%;
+}
+
+.bosluk-25 {
+  height: 19%;
+}
+
+.carousel-inner {
+  position: relative;
+  bottom: -50px;
+}
+
+.carousel-indicators {
+  position: relative;
+  bottom: -357px;
+}

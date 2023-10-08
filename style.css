@@ -3,3 +3,56 @@ iframe {
     width:100%;
     height: 100%;
 }
+
+.cool-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .cool-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #000;
+    transition: width 0.3s;
+  }
+  
+  .cool-link:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
+
+  /* Beyaz Effect */
+.cool-link-white {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.cool-link-white::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background: white;
+  transition: width 0.3s;
+}
+
+.cool-link-white:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+/*
+.navbar-scrolled {
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(52, 51, 51, 0.15);
+  color: white;
+}
+
+.navbar {
+  transition: background-color 0.5s, box-shadow 0.5s;
+}
+ */
